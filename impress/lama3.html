@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Practices for Virtual Machines</title>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.chref="https://cdnjs.cloudflare.com/ajax/libs/impess.js/0.5.3/impress.min.css">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+        }
+        
+        .step {
+            position: absolute;
+            font-size: 28px;
+            text-align: center;
+            padding: 50px;
+            min-width: 900px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+        
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="impress">
+        <!-- Step 1 -->
+        <img class="step background" src="img/step1.jpg" data-x="0" data-y="0"
+data-z="1000" />
+        
+        <!-- Step 2 -->
+        <img class="step background" src="img/step2.jpg" data-x="5000" 
+data-y="0" data-z="2000" />
+        
+        <!-- Step 3 -->
+        <img class="step background" src="img/step3.jpg" data-x="10000" 
+data-y="0" data-z="3000" />
+        
+        <!-- Step 4 -->
+        <img class="step background" src="img/step4.jpg" data-x="15000" 
+data-y="0" data-z="4000" />
+        
+        <!-- Step 5 -->
+        <img class="step background" src="img/step5.jpg" data-x="20000" 
+data-y="0" data-z="5000" />
+        
+        <!-- Step 6 -->
+        <img class="step background" src="img/step6.jpg" data-x="25000" 
+data-y="0" data-z="6000" />
+        
+        <!-- Step 7 -->
+        <img class="step background" src="step7.jpg" data-x="30000" 
+data-y="0" data-z="7000" />
+    </div>
+    
+    <script 
+src="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.jssrc="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/imress.min.js"></script>
+    <script>
+        impress().init();
+    </script>
+</body>
+</html>
+
